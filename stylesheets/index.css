@@ -64,4 +64,8 @@ body {
   box-shadow: none;
 }
 
+.form-label {
+  margin-bottom: 0;
+}
+
 /*# sourceMappingURL=index.css.map */
