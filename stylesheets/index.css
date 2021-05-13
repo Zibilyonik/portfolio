@@ -68,4 +68,8 @@ body {
   margin-bottom: 0;
 }
 
+.form-control {
+  color: gray !important;
+}
+
 /*# sourceMappingURL=index.css.map */
