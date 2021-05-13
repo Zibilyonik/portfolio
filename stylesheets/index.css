@@ -17,6 +17,7 @@ body {
 
 .project-img {
   object-fit: cover;
+  border-radius: 7px !important;
   max-width: inherit;
   max-height: inherit;
   transition: transform 0.3s;
@@ -70,6 +71,7 @@ body {
 
 .form-control {
   color: gray !important;
+  box-shadow: 2px 2px 1px gray !important;
 }
 
 /*# sourceMappingURL=index.css.map */
