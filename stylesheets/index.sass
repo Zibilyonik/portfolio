@@ -16,7 +16,6 @@ body
   max-width: inherit
   max-height: inherit
   transition: transform .3s
-  overflow: hidden
   &:hover
     transform: scale(1.12)
 .portrait-img
@@ -38,3 +37,7 @@ body
   background-color: transparentize($sub-colour, .3)
   box-shadow: 3px 1px 5px $sub-colour
   border: none
+.dropdown-menu
+  background-color: transparentize($sub-colour, .3)
+.dropdown-toggle:focus
+  box-shadow: none
