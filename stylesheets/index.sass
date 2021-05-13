@@ -1,10 +1,16 @@
-$main-colour: rgb(127, 214, 200)
-$sub-colour: rgb(203, 140, 216)
-
+$main-colour: #CB8CD8
+$sub-colour: #8DD8CB
+body
+  background-image: linear-gradient(to bottom left, transparentize(#D98F8D, .1), transparentize(#D98DCB, .1), transparentize(#B28DD9, .1), transparentize(#8D9CD9, .1))
 * 
   font-family: harmattan
-.navbar-brand
-  color: $main-colour!important
+  color: #ffffff!important
+.navbar
+  background-color: transparentize($sub-colour, .2)!important
+  top: 0
+  width: 100%
+  position: fixed
+  transition: top 0.3s
 .project-img
   object-fit: cover
   max-width: inherit
@@ -17,3 +23,18 @@ $sub-colour: rgb(203, 140, 216)
   object-fit: cover
   max-width: 40%
   max-height: inherit
+.awesome-title, .name, .title-card, .project-title
+  font-family: 'Open Sans'
+.title-card
+  background-image: linear-gradient(to right, transparentize($sub-colour, 1), transparentize($sub-colour, .2), transparentize($sub-colour, 1))
+  color: white
+.intro-block
+  margin-top: 20vh!important
+  margin-bottom: 20vh!important
+.contact-block
+  min-width: 300px
+  max-width: 800px
+.contact-btn
+  background-color: transparentize($sub-colour, .3)
+  box-shadow: 3px 1px 5px $sub-colour
+  border: none

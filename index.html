@@ -6,12 +6,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Harmattan:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
     <link href="stylesheets/index.css" type="text/css" rel="stylesheet">
+    <script src="js/test.js"></script>
     <title>Portfolio - Onur Surmeli</title>
   </head>
   <body>
       <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light mx-1">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light rounded" id="navbar">
           <a class="navbar-brand mx-4" href="#">Onur Surmeli</a>
           <button class="navbar-toggler mx-4" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -39,103 +42,133 @@
           </div>
         </nav>
       </header>
-      <div class="container-fluid">
+      <div class="container-fluid intro-block my-5">
         <div class="row justify-content-center px-3">
-          <div class="col-s-12 col my-3 text-center text-lg-end">
+          <div class="col-s-12 col my-3 text-center">
             <img src="assets/portrait.jpg" alt="Selfie With the Boiz" class="portrait-img border rounded">
           </div>
-          <div class="col-s-12 col-md-6 my-2 text-center text-md-start">
-            <p class="h2">Onur Onat Surmeli</p>
-            <p class="h4">Dedicated Developer Deluxe</p>
+          <div class="col-s-12 col-md-6 my-2 text-center text-md-start align-self-md-center">
+            <p class="h2 fw-bold name">Onur Onat Surmeli</p>
+            <h4 class="awesome-title fst-italic my-3">Dedicated Developer Deluxe</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ea iure sed modi culpa eius quibusdam inventore hic maxime suscipit.</p>
           </div>
         </div>
       </div>
-      <div class="container-fluid my-3">
-        <div class="row text-center px-3 justify-content-center">
-          <div class="col-s-12">
-            <p class="h2 project-title">Lorem ipsum dolor sit.</p>
-          </div>
-          <div class="col-s-12 col-md-10 col-lg-6">
-            <img src="assets/template.png" alt="project" class="project-img border rounded">
-          </div>
-          <div class="col-s-12 col-md-10 col-lg-6 my-2">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem ad, dolorem similique ipsam, assumenda eaque officiis eveniet est omnis aspernatur laborum fugiat provident, eius sequi ex. Ratione officiis sed fuga minima ad ducimus hic accusantium culpa totam libero autem tempore itaque laborum, tempora eligendi sequi quam ipsa vero cupiditate. Voluptates!</p>
-            <div class="row">
-              <div class="repo-link col-12 col-lg-6">
-                <a href="#">GITHUB</a>
+      <div class="container-fluid project-main-block mb-5">
+        <h2 class="h2 fw-bold text-center fs-1 title-card">Recent Works</h2>
+        <div class="d-grid gap-3 container project-block mt-5">
+          <div class="container-fluid">
+            <div class="row text-center px-3 justify-content-center">
+              <div class="col-s-12">
+                <p class="h2 project-title">Lorem ipsum dolor sit.</p>
               </div>
-              <div class="live-link col-12 col-lg-6">
-                <a href="#">LIVE SITE</a>
+              <div class="col-s-12 col-md-10 col-lg-6">
+                <img src="assets/template.png" alt="project" class="project-img border rounded">
+              </div>
+              <div class="col-s-12 col-md-10 col-lg-6 my-2">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem ad, dolorem similique ipsam, assumenda eaque officiis eveniet est omnis aspernatur laborum fugiat provident, eius sequi ex. Ratione officiis sed fuga minima ad ducimus hic accusantium culpa totam libero autem tempore itaque laborum, tempora eligendi sequi quam ipsa vero cupiditate. Voluptates!</p>
+                <div class="row">
+                  <div class="repo-link col-6 col-lg-6">
+                    <a href="#">GITHUB</a>
+                  </div>
+                  <div class="live-link col-6 col-lg-6">
+                    <a href="#">LIVE SITE</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid">
+            <div class="row text-center px-3 justify-content-center">
+              <div class="col-s-12">
+                <p class="h2 project-title">Lorem ipsum dolor sit.</p>
+              </div>     
+              <div class="col-s-12 col-md-10 col-lg-6 order-lg-1">
+                <img src="assets/template.png" alt="project" class="project-img border rounded">
+              </div>
+              <div class="col-s-12 col-md-10 col-lg-6 my-2">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem ad, dolorem similique ipsam, assumenda eaque officiis eveniet est omnis aspernatur laborum fugiat provident, eius sequi ex. Ratione officiis sed fuga minima ad ducimus hic accusantium culpa totam libero autem tempore itaque laborum, tempora eligendi sequi quam ipsa vero cupiditate. Voluptates!</p>
+                <div class="row">
+                  <div class="repo-link col-6 col-lg-6">
+                    <a href="#">GITHUB</a>
+                  </div>
+                  <div class="live-link col-6 col-lg-6">
+                    <a href="#">LIVE SITE</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid">
+            <div class="row text-center px-3 justify-content-center">
+              <div class="col-s-12">
+                <p class="h2 project-title">Lorem ipsum dolor sit.</p>
+              </div>
+              <div class="col-s-12 col-md-10 col-lg-6">
+                <img src="assets/template.png" alt="project" class="project-img border rounded">
+              </div>
+              <div class="col-s-12 col-md-10 col-lg-6 my-2">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem ad, dolorem similique ipsam, assumenda eaque officiis eveniet est omnis aspernatur laborum fugiat provident, eius sequi ex. Ratione officiis sed fuga minima ad ducimus hic accusantium culpa totam libero autem tempore itaque laborum, tempora eligendi sequi quam ipsa vero cupiditate. Voluptates!</p>
+                <div class="row">
+                  <div class="repo-link col-6">
+                    <a href="#">GITHUB</a>
+                  </div>
+                  <div class="live-link col-6">
+                    <a href="#">LIVE SITE</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid">
+            <div class="row text-center px-3 justify-content-center">
+              <div class="col-s-12">
+                <p class="h2 project-title">Lorem ipsum dolor sit.</p>
+              </div>     
+              <div class="col-s-12 col-md-10 col-lg-6 order-lg-1">
+                <img src="assets/template.png" alt="project" class="project-img border rounded">
+              </div>
+              <div class="col-s-12 col-md-10 col-lg-6 my-2">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem ad, dolorem similique ipsam, assumenda eaque officiis eveniet est omnis aspernatur laborum fugiat provident, eius sequi ex. Ratione officiis sed fuga minima ad ducimus hic accusantium culpa totam libero autem tempore itaque laborum, tempora eligendi sequi quam ipsa vero cupiditate. Voluptates!</p>
+                <div class="row">
+                  <div class="repo-link col-6 col-lg-6">
+                    <a href="#">GITHUB</a>
+                  </div>
+                  <div class="live-link col-6 col-lg-6">
+                    <a href="#">LIVE SITE</a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="container-fluid my-3">
-        <div class="row text-center px-3 justify-content-center">
-          <div class="col-s-12">
-            <p class="h2 project-title">Lorem ipsum dolor sit.</p>
-          </div>
-          <div class="col-s-12 col-md-10 col-lg-6">
-            <img src="assets/template.png" alt="project" class="project-img border rounded">
-          </div>
-          <div class="col-s-12 col-md-10 col-lg-6 my-2">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem ad, dolorem similique ipsam, assumenda eaque officiis eveniet est omnis aspernatur laborum fugiat provident, eius sequi ex. Ratione officiis sed fuga minima ad ducimus hic accusantium culpa totam libero autem tempore itaque laborum, tempora eligendi sequi quam ipsa vero cupiditate. Voluptates!</p>
-            <div class="row">
-              <div class="repo-link col-12 col-lg-6">
-                <a href="#">GITHUB</a>
-              </div>
-              <div class="live-link col-12 col-lg-6">
-                <a href="#">LIVE SITE</a>
-              </div>
+      <div class="container-fluid contact-main-block my-5">
+        <h2 class="h2 fw-bold text-center fs-1 title-card">Contact Me</h2>
+        <div class="container contact-block mt-5">
+          <div class="row px-5">
+            <div class="col-12 col-lg-6 mt-3">
+              <label for="fname" class="form-label">First Name</label>
+              <input type="text" class="form-control" id="fname" placeholder="First Name">
+            </div>
+            <div class="col-12 col-lg-6 mt-3">
+              <label for="lname" class="form-label">Last Name</label>
+              <input type="text" class="form-control" id="lname" placeholder="Last Name">
+            </div>
+            <div class="col-12 mt-3">
+              <label for="address" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="address" placeholder="name@example.com">
+            </div>
+            <div class="col-12 mt-3">
+              <label for="message" class="form-label">Your Message</label>
+              <textarea class="form-control" id="message" placeholder="Type your message..." rows="5"></textarea>
+            </div>
+            <div class="col-auto mt-5 mx-auto">
+              <button type="submit" class="contact-btn mb-3 rounded btn-lg">Submit Message</button>
             </div>
           </div>
         </div>
       </div>
-      <div class="container-fluid my-3">
-        <div class="row text-center px-3 justify-content-center">
-          <div class="col-s-12">
-            <p class="h2 project-title">Lorem ipsum dolor sit.</p>
-          </div>
-          <div class="col-s-12 col-md-10 col-lg-6">
-            <img src="assets/template.png" alt="project" class="project-img border rounded">
-          </div>
-          <div class="col-s-12 col-md-10 col-lg-6 my-2">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem ad, dolorem similique ipsam, assumenda eaque officiis eveniet est omnis aspernatur laborum fugiat provident, eius sequi ex. Ratione officiis sed fuga minima ad ducimus hic accusantium culpa totam libero autem tempore itaque laborum, tempora eligendi sequi quam ipsa vero cupiditate. Voluptates!</p>
-            <div class="row">
-              <div class="repo-link col-12 col-lg-6">
-                <a href="#">GITHUB</a>
-              </div>
-              <div class="live-link col-12 col-lg-6">
-                <a href="#">LIVE SITE</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid my-3">
-        <div class="row text-center px-3 justify-content-center">
-          <div class="col-s-12">
-            <p class="h2 project-title">Lorem ipsum dolor sit.</p>
-          </div>
-          <div class="col-s-12 col-md-10 col-lg-6">
-            <img src="assets/template.png" alt="project" class="project-img border rounded">
-          </div>
-          <div class="col-s-12 col-md-10 col-lg-6 my-2">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem ad, dolorem similique ipsam, assumenda eaque officiis eveniet est omnis aspernatur laborum fugiat provident, eius sequi ex. Ratione officiis sed fuga minima ad ducimus hic accusantium culpa totam libero autem tempore itaque laborum, tempora eligendi sequi quam ipsa vero cupiditate. Voluptates!</p>
-            <div class="row">
-              <div class="repo-link col-12 col-lg-6">
-                <a href="#">GITHUB</a>
-              </div>
-              <div class="live-link col-12 col-lg-6">
-                <a href="#">LIVE SITE</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>  
   </body>
